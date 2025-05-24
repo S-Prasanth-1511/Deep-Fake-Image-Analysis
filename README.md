@@ -40,3 +40,17 @@ python app.py
 **4.Access the app**
 Open your browser and go to:
 http://localhost:5000
+
+
+**Folder Structure**
+
+deepfake-image-analysis/
+├── app.py
+├── model/
+│   └── deepfake_cnn_model.h5
+├── static/
+├── templates/
+│   └── index.html
+├── utils/
+│   └── image_processing.py
+└── requirements.txt
